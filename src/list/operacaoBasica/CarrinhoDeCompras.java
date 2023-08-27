@@ -66,10 +66,10 @@ public class CarrinhoDeCompras {
     public static void main(String[] args) {
         CarrinhoDeCompras carrinhoDeCompras = new CarrinhoDeCompras();
 
-        carrinhoDeCompras.adicionarItem("Lápis", 2d, 3);
-        carrinhoDeCompras.adicionarItem("Lápis", 2d, 3);
-        carrinhoDeCompras.adicionarItem("Caderno", 35d, 1);
-        carrinhoDeCompras.adicionarItem("Borracha", 2d, 2);
+        carrinhoDeCompras.adicionarItem("Lápis", 2, 3);
+        carrinhoDeCompras.adicionarItem("Lápis", 2, 3);
+        carrinhoDeCompras.adicionarItem("Caderno", 35, 1);
+        carrinhoDeCompras.adicionarItem("Borracha", 2, 2);
 
         carrinhoDeCompras.exibeItens();
 
